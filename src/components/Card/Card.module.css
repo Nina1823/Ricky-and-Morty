@@ -16,15 +16,18 @@
     transform: scale(1.05);
 }
 
-.atributes{
+.attributes {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     font-size: small;
-    font-family: "Franklin Gothic Medium","Arial Narrow", Arial,sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .closeButton{
     background-color: red;

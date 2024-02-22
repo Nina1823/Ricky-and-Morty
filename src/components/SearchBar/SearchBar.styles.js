@@ -12,7 +12,7 @@ export const SearchContainer = styled.div`
 `;
 
 export const SearchInput = styled.input`
-  width: 200px;
+  width: 400px;
   padding: 12px 20px;
   border: solid #39ff14 1px;
   border-radius: 7px 0px 0px 7px;

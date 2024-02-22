@@ -1,16 +1,3 @@
-export const Rick = {
-   id: 1,
-   name: 'Rick Sanchez',
-   status: 'Alive',
-   species: 'Human',
-   gender: 'Male',
-   origin: {
-      name: 'Earth (C-137)',
-      url: 'https://rickandmortyapi.com/api/location/1',
-   },
-   image: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg',
-};
-
 export default [
    {
       id: 1,
@@ -72,4 +59,42 @@ export default [
       },
       image: 'https://rickandmortyapi.com/api/character/avatar/5.jpeg',
    },
+   
+{
+   id:6,
+   name: 'Squanchy',
+   status: 'Unknown',
+   species: 'Cat-like alien',
+   gender: 'Male',
+   origin: {
+   name: 'Squanch',
+   url: 'https://rickandmortyapi.com/api/location/35',
+   },
+   image: 'https://rickandmortyapi.com/api/character/avatar/9.jpeg',
+   },
+   {
+      id:7,
+      name: 'Summers Friend 1',
+      status: 'Alive',
+      species: 'Human',
+      gender: 'Female',
+      origin: {
+        name: 'Earth (C-137)',
+        url: 'https://rickandmortyapi.com/api/location/1',
+      },
+      image: 'https://rickandmortyapi.com/api/character/avatar/76.jpeg',
+    },
+    {
+      id:8,
+      name: 'Mr. Meeseeks',
+      status: 'Died',
+      species: 'Meeseeks',
+      gender: 'Male',
+      origin: {
+        name: 'Meeseeks Box',
+        url: 'https://rickandmortyapi.com/api/location/54',
+      },
+      image: 'https://rickandmortyapi.com/api/character/avatar/19.jpeg',
+    }
+
 ];
