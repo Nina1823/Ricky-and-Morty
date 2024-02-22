@@ -12,8 +12,13 @@ export default function Card(props) {
 
          <div className={style.atributes}>
             {/* <p>status: {character.status}</p> */}
+<<<<<<< HEAD
             <p>{character.species}</p>
             <p>{character.gender}</p>
+=======
+            <p>species={character.species}</p>
+            <p>gender: {character.gender}</p>
+>>>>>>> 3cbafe75538a528c2006c0ecdbce8c042162c13f
             {/* <p>origin: {character.origin.name}</p> */}
          </div>
       </div>

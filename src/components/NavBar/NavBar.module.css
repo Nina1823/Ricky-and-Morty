@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
     display: flex;
     flex-direction: column;
@@ -6,3 +7,17 @@
     border-radius: 10px;
     padding: 0px; /* Ajusta el relleno según tus necesidades */
 }
+=======
+.container{
+     display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    top:0;
+    border-radius: 8px;
+    padding: 5px;
+    align-self: center;
+    align-items: center;
+    padding: 3px;
+   
+}
+>>>>>>> 3cbafe75538a528c2006c0ecdbce8c042162c13f

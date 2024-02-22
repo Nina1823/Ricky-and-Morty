@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cardsContainer{
     max-width: 80vw;
     margin-bottom: 30px;
@@ -5,4 +6,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap:50px
+=======
+.cardsContainer{
+    max-width: 80vw;
+    margin-bottom: 30px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:50px
+>>>>>>> 3cbafe75538a528c2006c0ecdbce8c042162c13f
 }
