@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 export const Rick = {
    id: 1,
    name: 'Rick Sanchez',
@@ -13,7 +11,6 @@ export const Rick = {
    image: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg',
 };
 
->>>>>>> 3cbafe75538a528c2006c0ecdbce8c042162c13f
 export default [
    {
       id: 1,
@@ -75,7 +72,7 @@ export default [
       },
       image: 'https://rickandmortyapi.com/api/character/avatar/5.jpeg',
    },
-<<<<<<< HEAD
+
    
 {
    id:6,
@@ -114,6 +111,4 @@ export default [
       image: 'https://rickandmortyapi.com/api/character/avatar/19.jpeg',
     }
 
-=======
->>>>>>> 3cbafe75538a528c2006c0ecdbce8c042162c13f
 ];

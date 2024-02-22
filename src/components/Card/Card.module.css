@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .cardContainer{
     display:flex;
     flex-direction: column;
@@ -78,7 +78,7 @@
 
 .imageContainer:hover .name{
     opacity: 1;
-=======
+}
 .cardContainer{
     display:flex;
     flex-direction: column;
@@ -155,5 +155,4 @@
 
 .imageContainer:hover .name{
     opacity: 1;
->>>>>>> 3cbafe75538a528c2006c0ecdbce8c042162c13f
 }
