@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Cards from './components/Cards/Cards.jsx';
+import SearchBar from './components/SearchBar/SearchBar.jsx';
+import characters from  './data.js';
+import NavBar from './components/NavBar/NavBar.jsx';
+import logo from "./assets/logo.jpg"
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   function searchHandler(e){
+      window.alert("El ID que estoy buscando");
+   }
+   function closeHandler(){
+      window.alert("Emulamos que se cierre la card");
+   }
+
+   return (
+      <div className="App">
+         <img src={logo} className="title"/>
+         <br></br>
+
+        <NavBar/>
+         {/* <SearchBar onSearch={searchHandler} /> */}
+         <Cards characters={characters} onClose={closeHandler} />
+      </div>
+   );
 }
 
 export default App;
